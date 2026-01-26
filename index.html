@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Seatwork2</title>
+</head>
+<body>
+ <form>
+    <h2>Intramurals team checker</h2>
+    <label for="registration">Are you done with the online regristration?</label><br>
+    <input type="text" id="Regis" placeholder=""></input><br>
+    <label for="registration">Do you have a medical clearance from the clinic?</label><br>
+    <input type="text" id="clinic" placeholder=""><br>
+     <label for="registration">Whats your grade?</label><br>
+    <input type="text" id="grades" placeholder=""><br>
+     <label for="registration">Whats your section?</label><br>
+    <input type="text" id="sections" placeholder=""><br>
+    <input type="button" py-click="team_checker" value="Check">
+ </form>
+    
+ <div id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
