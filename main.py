@@ -24,6 +24,7 @@ def team_checker(e):
     elif section == "topaz":
         display("Your team is Green Hornets", target="output")
     else:
-        display("You are NOT eligible for the team", target="output")
+        display("You need to put your grade level and section", target="output")
+
 
         
